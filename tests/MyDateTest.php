@@ -73,6 +73,11 @@
       $this->assertDays('2013/03/21', '2015/07/31');
       
     }
+
+    public function testComplexDays2()
+    {
+       $this->assertDays('2017/07/28', '2017/08/15');
+    }
     
     public function testComplexMonths() {
 
