@@ -121,6 +121,7 @@
 
           $total_days = static::diffTotalDays($sDate, $eDate);
           $invert = $total_days < 0 ? true: false;
+          $total_days = abs($total_days);
 
           // Sample object:
           return (object)array(

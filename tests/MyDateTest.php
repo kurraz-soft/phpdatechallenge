@@ -8,6 +8,12 @@
 
     }
 
+    public function testInvertTotalDays() {
+
+      $this->assertTotalDays('2014/01/04', '2014/01/01');
+
+    }
+
     public function testSimpleDays() {
 
       $this->assertDays('2014/01/01', '2014/01/04');
